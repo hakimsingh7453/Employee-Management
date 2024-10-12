@@ -11,10 +11,10 @@ body {
 .name {
     background-color: rgb(11, 11, 16);
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     box-sizing: content-box;
-    height: 120px;
+    height: 90px;
     color: rgb(97, 97, 103);
     padding: 0 20px;
     font-weight: 50px;
