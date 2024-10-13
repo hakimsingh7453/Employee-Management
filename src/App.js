@@ -1,15 +1,20 @@
 import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Login from "./components/Login";
+import Home from "./components/Home";
 import Navbar from "./components/Navbar";
+
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="background">
-        <h1 className="welcome">Welcome! </h1>
-        <h2>Manage Your Employees</h2>
-        <p>Efficiently manage your team with our employee management system</p>
-      </div>
+      <Router>
+      <Routes>
+      <Route path="/" element={<Home/>} />
+        <Route path="/login" element={<Login/>} />
+      </Routes>
+    </Router>
     </div>
   );
 }

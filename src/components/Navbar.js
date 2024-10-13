@@ -2,15 +2,16 @@
 import './style.css';
 
 function Navbar() {
+
   return (
     <div>
       <nav className="name">
         <ul className="contain">
-          <a href="#">HOME </a>
-          <a href="#">SERCVICES </a>
-          <a href="#"> CONTECT US  </a>
-          <a href="#">login</a>
-          <a href="#">sighn up</a>
+        <a href="/">HOME </a>
+          <a href="#">SERVICES </a>
+          <a href="#"> CONTACT US</a>
+          <a href="/login">SIGN IN</a>
+          <a href="#">SIGN UP</a>
         </ul>
       </nav>
     </div>
